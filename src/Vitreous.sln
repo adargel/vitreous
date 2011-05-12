@@ -3,7 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{D606D91E-574F-4D03-A3D3-437AE6EE759F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vitreous.Tests", "Vitreous.Tests\Vitreous.Tests.csproj", "{7567FB31-E777-4225-807A-11FCCDECA7D1}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notes", "Notes", "{60D47C29-A249-470B-BC6D-FD42320FE941}"
+	ProjectSection(SolutionItems) = preProject
+		expressions.txt = expressions.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vitreous.Parser", "Vitreous.Parser\Vitreous.Parser.csproj", "{F1F0865A-B54D-44BE-AD9A-6E0B70DDFBD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vitreous.Parser.Tests", "Vitreous.Parser.Tests\Vitreous.Parser.Tests.csproj", "{7567FB31-E777-4225-807A-11FCCDECA7D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,6 +18,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1F0865A-B54D-44BE-AD9A-6E0B70DDFBD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1F0865A-B54D-44BE-AD9A-6E0B70DDFBD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1F0865A-B54D-44BE-AD9A-6E0B70DDFBD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1F0865A-B54D-44BE-AD9A-6E0B70DDFBD3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7567FB31-E777-4225-807A-11FCCDECA7D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7567FB31-E777-4225-807A-11FCCDECA7D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7567FB31-E777-4225-807A-11FCCDECA7D1}.Release|Any CPU.ActiveCfg = Release|Any CPU

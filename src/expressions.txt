@@ -1,0 +1,2 @@
+%([-:\w]+)([-:\w\.\#]*)(.*) -- tag parsing
+([#.])([-:_a-zA-Z0-9]+) -- div class/id parsing

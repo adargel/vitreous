@@ -8,8 +8,8 @@
     <ProjectGuid>{7567FB31-E777-4225-807A-11FCCDECA7D1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Vitreous.Tests</RootNamespace>
-    <AssemblyName>Vitreous.Tests</AssemblyName>
+    <RootNamespace>Vitreous.Parser.Tests</RootNamespace>
+    <AssemblyName>Vitreous.Parser.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,7 +41,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TagParsing\When_parsing_a_simple_tag.cs" />
+    <Compile Include="When_parsing_a_div_tag.cs" />
+    <Compile Include="When_parsing_a_tag.cs" />
+    <Compile Include="When_parsing_content.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Vitreous.Parser\Vitreous.Parser.csproj">
+      <Project>{F1F0865A-B54D-44BE-AD9A-6E0B70DDFBD3}</Project>
+      <Name>Vitreous.Parser</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
