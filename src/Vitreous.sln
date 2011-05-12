@@ -1,8 +1,25 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{D606D91E-574F-4D03-A3D3-437AE6EE759F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vitreous.Tests", "Vitreous.Tests\Vitreous.Tests.csproj", "{7567FB31-E777-4225-807A-11FCCDECA7D1}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7567FB31-E777-4225-807A-11FCCDECA7D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7567FB31-E777-4225-807A-11FCCDECA7D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7567FB31-E777-4225-807A-11FCCDECA7D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7567FB31-E777-4225-807A-11FCCDECA7D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7567FB31-E777-4225-807A-11FCCDECA7D1} = {D606D91E-574F-4D03-A3D3-437AE6EE759F}
 	EndGlobalSection
 EndGlobal
